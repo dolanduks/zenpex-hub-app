@@ -1,0 +1,61 @@
+name: zenpex_hub
+description: "Zenpex Hub — app Android com os módulos do hub e acessos da Zenpex."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10
+  local_auth: ^2.3.0
+  webview_flutter: ^4.10.0
+  external_app_launcher: ^4.0.0
+  msal_auth: ^3.5.3
+  http: ^1.2.2
+  file_picker: ^8.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+# Ícone do Zenpex Hub: símbolo branco sobre o azul-destaque da marca (#576AFF),
+# para diferenciar do Zenpex View (que usa o marinho #002555).
+# Para regenerar: dart run flutter_launcher_icons
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/icon/icon.png
+  adaptive_icon_background: "#576AFF"
+  adaptive_icon_foreground: assets/icon/icon_foreground.png
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo/
+    - assets/msal_config.json
+
+  fonts:
+    - family: ZenpexDigits
+      fonts:
+        - asset: assets/fonts/ZenpexDigits-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/ZenpexDigits-Bold.ttf
+          weight: 700
+    - family: PPMori
+      fonts:
+        - asset: assets/fonts/PPMori-Regular.otf
+    - family: AberMono
+      fonts:
+        - asset: assets/fonts/Aber-Mono-Light.otf
+          weight: 300
+        - asset: assets/fonts/Aber-Mono-Regular.otf
+          weight: 400
+        - asset: assets/fonts/Aber-Mono-Bold.otf
+          weight: 700

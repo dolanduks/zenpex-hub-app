@@ -1,0 +1,17 @@
+<!-- Símbolo Zenpex com margem, para o splash do Android 12 (que mascara o
+     ícone num círculo). O símbolo fica dentro do círculo inscrito sem cortes. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <group
+        android:scaleX="0.634"
+        android:scaleY="0.634"
+        android:translateX="135.6"
+        android:translateY="115.5">
+        <path
+            android:fillColor="#F2F2F2"
+            android:pathData="M379.67,25.4v282.52c0,8.48-4.24,16.43-11.3,21.12l-164.48,109.65c-8.53,5.67-19.65,5.67-28.17,0l-110.39-73.61c-13.17-8.78-15.14-27.37-4.1-38.71L323.9,56.44c5.28-5.43-.72-14.19-7.69-11.22L35.24,165.07C18.55,172.19,0,159.94,0,141.79V25.4C0,11.37,11.37,0,25.4,0h328.87c14.03,0,25.4,11.37,25.4,25.4Z" />
+    </group>
+</vector>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android 12+: splash nativo usa o símbolo da Zenpex sobre o marinho. -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowSplashScreenBackground">@color/zenpex_navy</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_symbol</item>
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@color/zenpex_black</item>
+    </style>
+</resources>

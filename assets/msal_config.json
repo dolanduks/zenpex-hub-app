@@ -1,0 +1,16 @@
+{
+  "client_id": "d137811c-2e2e-4997-a5d8-3f8859f3c1ef",
+  "authorization_user_agent": "DEFAULT",
+  "redirect_uri": "msauth://br.com.zenpex.zenpex_hub/Teo9%2Fy0MVJEtRhgChRgwDl92ie0%3D",
+  "account_mode": "SINGLE",
+  "broker_redirect_uri_registered": true,
+  "authorities": [
+    {
+      "type": "AAD",
+      "audience": {
+        "type": "AzureADMyOrg",
+        "tenant_id": "61b00298-cf8d-433c-a663-503bc550a180"
+      }
+    }
+  ]
+}
